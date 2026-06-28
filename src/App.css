@@ -1,4 +1,4 @@
-h1
+/* h1
 {
   color:gold;
   font-weight:bold;
@@ -20,4 +20,43 @@ nav a
   
   gap:30px;
 
+} */
+
+h1 {
+  color: gold;
+  font-weight: bold;
+  font-family: "Times New Roman", serif;
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: orange;
+  font-family: "Times New Roman", serif;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media (max-width:768px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  nav a {
+    font-size: 16px;
+  }
 }

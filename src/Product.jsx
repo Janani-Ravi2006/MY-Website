@@ -64,6 +64,7 @@ let p = [
 ];
 function Product(){
     const [notification,setNotification]=useState(false);
+    const[notification1,setNotification1]=useState(false);
     const[cart,setCart]=useState([]);
     const handleSubmit=(index)=>{
          setCart([...cart,p[index-1]])
@@ -74,9 +75,9 @@ function Product(){
     };
     const handleRemove=(index)=>{
          setCart(cart.filter((_, i)=>i!==index));
-        setNotification(true);
+        setNotification1(true);
          setTimeout(()=>{
-            setNotification(false);
+            setNotification1(false);
         },2000);
     }
     return(
@@ -108,7 +109,7 @@ function Product(){
                 </div>
             ))}
         </div>
-          {notification && 
+          {notification1 && 
                 <div className="noti">
                   <p>Delete Successfully</p>
                 </div>
