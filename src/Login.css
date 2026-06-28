@@ -1,0 +1,73 @@
+.login1 h1
+{
+    padding:20px;
+}
+.login
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+   
+    
+}
+.login input
+{
+    width:250px;
+    border:3px solid orange;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+}
+.login label{
+  color:white;
+  font-size:20px;
+  padding-right:170px;
+  font-family: 'Times New Roman', Times, serif; 
+  padding-top:20px;
+    margin-right: 10px; 
+    margin-bottom:10px;
+}
+.login input::placeholder
+{
+    color:white;
+    font-size:15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.login button
+{
+    width:280px;
+    padding:10px;
+    border-radius:10px;
+    background-color:orange;
+    border:3px solid ;
+    justify-content: center;
+    text-align:center;
+    align-items:center; 
+}
+
+.forgot
+{
+    display:flex;
+    flex-direction:row;
+    padding-left:440px;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    gap:50px;
+}
+
+.noti
+{
+    border:3px solid gold;
+    background-color:green;
+    border-radius:10px;
+    position:fixed;
+    top:50px;
+    right:320px;
+    width:200px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  font-weight:bold;
+  font-size:15px;
+}

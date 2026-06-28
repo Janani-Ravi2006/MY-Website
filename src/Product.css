@@ -1,0 +1,47 @@
+.hero1 h1
+{
+    padding:20px;
+}
+.hero1 p
+{
+    color:gold;
+    font-size:20px;
+}
+
+.product-content
+{
+   max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card1
+{
+    border:3px solid orange;
+    border-radius:8px;
+    width:220px;
+    height:200px;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+.card1 h1
+{
+    font-size:25px;
+    
+}
+.card1 button
+{
+    background-color:orange;
+    border:3px solid ;
+    border-radius:8px;
+    width:80px;
+}
+
+.card1 button:hover {
+    background: rgb(233, 27, 61);
+    color:20px;
+    font-weight:bold;
+}

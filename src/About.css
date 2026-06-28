@@ -1,0 +1,9 @@
+.about p
+{
+   text-align:justify;
+   max-width:1000px;
+   font-size:17px;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left:20px;
+   color:white;
+}

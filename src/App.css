@@ -1,0 +1,23 @@
+h1
+{
+  color:gold;
+  font-weight:bold;
+  font-family:times roman;
+  font-size:2rem;
+}
+nav
+{
+  padding-top:40px;
+  padding-left:400px;
+  justify-context:center;
+  display:flex;
+  gap:50px; 
+}
+nav a
+{
+  color:orange;
+  font-family:'Times New Roman', Times, serif;
+  
+  gap:30px;
+
+}
